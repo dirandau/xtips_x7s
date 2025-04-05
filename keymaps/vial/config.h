@@ -1,0 +1,17 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+#pragma once
+
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 4, 2 }
+
+/* RGBLIGHT configuration */
+#define WS2812_DI_PIN A9
+#define RGBLIGHT_LED_COUNT 2
+#define RGBLIGHT_LED_MAP { 1, 0 }
+#define RGBLED_SPLIT { 1, 1 }
+#define RGBLIGHT_LAYERS
+#define RGBLIGHT_MAX_LAYERS 9
+#define RGBLIGHT_EFFECT_CHRISTMAS
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_CHRISTMAS
+//#define RGBLIGHT_EFFECT_RAINBOW_SWIRL

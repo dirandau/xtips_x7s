@@ -1,0 +1,17 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0x58, 0x7B, 0x9C, 0x10, 0x9F, 0xC4, 0xAE, 0x5B}
+#define DYNAMIC_KEYMAP_LAYER_COUNT 9
+
+/* RGBLIGHT configuration */
+#define WS2812_DI_PIN A9
+#define RGBLIGHT_LED_COUNT 2
+#define RGBLIGHT_LED_MAP { 1, 0 }
+#define RGBLED_SPLIT { 1, 1 }
+#define RGBLIGHT_LAYERS
+#define RGBLIGHT_MAX_LAYERS 9
+#define RGBLIGHT_EFFECT_CHRISTMAS
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_CHRISTMAS
+//#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
